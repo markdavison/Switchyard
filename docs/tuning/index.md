@@ -39,10 +39,10 @@ Start where your goal is:
    shows the harness the checked-in results used, and the
    [Benchmarks](../benchmarks.md) page lists the published results with their
    configs. Produces: solved tasks and
-   cost per run for each arm. Costs: `k` runs per arm. The plan/execute and
-   advisor profiles use three runs and report the mean with the sample standard
-   deviation, as in the
-   [plan/execute profile header](../../benchmark/routing-profiles/deepswe-v11-plan-execute-luna-sol.toml).
+   cost per run for each arm. Costs: `k` runs per arm. The historical standalone
+   plan/execute and advisor evaluations used three runs and reported the mean
+   with the sample standard deviation, as in the
+   [historical plan/execute configuration](../../benchmark/DEEPSWE_V11_QUALIFICATION.md#historical-planexecute-configuration).
    The stage profile records a single run. A single run cannot separate a small
    change from noise.
 
@@ -81,7 +81,7 @@ Start where your goal is:
     - the cost per run.
 
     The
-    [plan/execute profile header](../../benchmark/routing-profiles/deepswe-v11-plan-execute-luna-sol.toml)
+    [historical plan/execute configuration](../../benchmark/DEEPSWE_V11_QUALIFICATION.md#historical-planexecute-configuration)
     records all of these. Produces: the header. Costs: none.
 
 8. **Recalibrate on change.** A new model version, provider, wire format,
